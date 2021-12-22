@@ -1,0 +1,50 @@
+AWS offers networking services that allow applications to be hosted in a secure and isolated environment. The content delivery services use optimized Amazon Global Backbone to deliver the videos and applications etc., with low latency and high transfer speeds.
+
+ 
+
+Business problem 1:
+A research organization entitled "Research for tomorrow" has decided to use cloud computing services for the ongoing research. However, due to the regulatory requirements, the data has to be placed in isolated environment and accessed securely.
+
+Recommended solution:     
+
+	
+    
+
+Amazon VPC offers an isolated section in AWS, where the enterprise can securely launch all it's resources.
+
+ 
+
+Business problem 2:
+"Research for tomorrow" has applications hosted in on premise and cloud environment as well. They need to route the user requests to the servers in and out of AWS environment based on the load.
+
+Recommended solution:     
+
+	
+    
+
+ Use Amazon Route 53, a highly available Dmain Name Sytem (DNS) that also facilitates domain registration and health checking.
+
+ 
+
+Business problem 3:
+Communication from cloud resources to on premise environment has to be securely managed for "Research for tomorrow". A dedicated communication channel is a preferred choice than a public network.
+
+Recommended solution:     
+
+	
+    
+
+AWS Direct Connect. Through this service, Amazon offers a dedicated network connection from your on premises to AWS cloud which helps you to experience consistent network performance and high bandwidth.
+
+ 
+
+Business problem 4:
+"Research for tomorrow" has documented their research results in various domains in video capsules. They would like to deliver this content across the globe to all its viewers. A low latency and high speed solution is sought after.
+
+Recommended solution:     
+
+	
+    
+
+Amazon CloudFront  delivers your content through a worldwide network of data centers called edge locations.
+
