@@ -1,0 +1,47 @@
+A leading online store which has presence in APAC wants to go global and expand its foot print. 
+They are not too sure about their infrastructure requirement to go global.
+The enterprise do not want to invest upfront on their infrastructure.
+
+Recommended solution:     
+
+Elastic compute cloud (EC2) is a web service which provides resizable compute capacity in cloud.
+
+An online retailer as part of the expansion of their services, plans to conduct promotional events across the globe. 
+In the past, they have experienced peak load during such promotional events. Hence the retailer plans to work with the cloud service provider to handle peak work load.
+
+Recommended solution:     
+
+Amazon EC2 Auto Scaling to add or remove compute capacity to meet changes in demand which in turn helps you to maintain the application availability
+
+Elastic Load Balancing(ELB) automatically distributes the incoming application traffic to your EC2 instances either in a single availability zone or across multiple availability zones.
+
+
+Business problem 3:
+An e-commerce giant wants the employees to focus on sales, application development and other core business activities but not on the infrastructure maintenance aspect. 
+They want resource provisioning and maintenance to be managed by the service provider.
+
+Recommended solution:     
+
+Use Amazon Elastic beanstalk, is a web service helps developers to build, run and deploy your applications in cloud without worrying about the underlying infrastructure.
+
+Business problem 4:
+The enterprise wants to give promotional offers to its customers. Offer details will be uploaded to their storage every now and then. As and when the offer data is uploaded to storage, it should be picked up by the application and process it. Application should be modelled to respond to events.
+
+Recommended solution: 
+
+Use Amazon Lambda. A serverless computing service to run your code in response to events.
+
+Business problem 5:
+BurdaStudios is a global media group faced challenges with video content distribution over growing number of channels and scaling to deal with the traffic peaks the website experienced, 
+when publishing big news stories.
+
+Recommended solution: 
+
+Use Amazon Elastic Container Service(ECS) which allows you to run and scale containerization applications on AWS cloud that supports Docker containers.
+
+Business problem 6:
+The enterprise has a few workloads running in on premise environment and few need to be migrated to cloud. It wants the users to have uniform experience accessing the applications in AWS cloud as well as on premise.
+
+Recommended solution: 
+
+Use Amazon Elastic Container service for Kubernetes(Amazon EKS) which is a managed service allows you to run kubernetes on AWS without provisioning or installing on your own kubernetes clusters.
