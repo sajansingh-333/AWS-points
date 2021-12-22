@@ -1,0 +1,48 @@
+Amazon Web Services offers several storage solutions tailored to business needs. Few of the popular services and the business problems which can be addressed with the help of these services is described below.
+
+Business problem 1:
+A leading online store has to store their web access logs in a scalable persistent storage for the purpose of continuous monitoring.
+
+Recommended solution:     
+
+	
+    
+
+Use Simple Storage Service, an object storage, to store and retrieve any amount of data from anywhere on the web at very low costs.
+
+ 
+
+Business problem 2:
+An enterprise has huge data on which they would like to perform in-memory analytics to retrieve customer purchase patterns and accordingly promote their business.
+
+Recommended solution:     
+
+	
+    
+
+Use Amazon Elastic Block Storage(EBS), which offers persistant block  storage volume in use with EC2 instances offering high availability and durability. 
+
+ 
+
+Business problem 3:
+An enterprise wants to provide files for web serving and content management which will be concurrently accessed by many compute instances. A fast and efficient file system is needed.
+
+Recommended solution:     
+
+	
+    
+
+AWS provides a simple, elastic file storage service for use with AWS cloud as well as on premise applications.
+
+ 
+
+Business problem 4:
+An enterprise has accumulated massive amount of data from their operations for the past 10 years. They want to store it for audit purpose. The data may not be frequently required.
+
+Recommended solution:     
+
+	
+    
+
+Amazon Glacier offers low-cost storage secure service  which offers storage for data backup and archival.
+
