@@ -1,0 +1,51 @@
+AWS offers Relational as well as NoSQL database services. Each of these services are used to address various business problems. Few of them are mentioned below.
+
+ 
+
+Business problem 1:
+A multinational software services company need to process employee payroll operations. Quick and reliable database management system is needed for performing online transaction processing.
+
+Recommended solution:     
+
+	
+    
+
+Amazon offers cost-effective relational database service (RDS) that makes it easy to set up, operate, and scale a relational database in the cloud
+
+ 
+
+Business problem 2:
+An enterprise has semi structured and unstructured data of its customers that needs to be processed for business decision making.
+
+Recommended solution:     
+
+	
+    
+
+Use Amazon DynamoDB,  fully managed NoSQL database service which provides fast and reliable performance
+
+ 
+
+Business problem 3:
+An enterprise has historical data generated from various sources, that need to be pre-processed and stored under a unified schema for data processing.
+
+Recommended solution:     
+
+	
+    
+
+Use Amazon Redshift. A fully managed data warehouse service that helps to analyze the data using the standard SQL and the existing Business Intelligence tools
+
+ 
+
+Business problem 4:
+A large E-commerce store want to migrate their on premise data in MySQL to Oracle in the cloud environment due the flexibilities with the cloud computing environment.
+
+Recommended solution:     
+
+	
+    
+
+Use AWS Database migration service that keeps the source fully operational while migrating it to AWS quickly and securely.
+
+                          
