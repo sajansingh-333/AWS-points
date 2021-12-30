@@ -1,0 +1,5 @@
+deploy cloud agent on ec2 instance and configure metrics and logs to provide actionable data.
+1. create a role . goto IAM > create role > choose ec2 service > 
+2.choose amazonEc2rolesforssm , cloudwatchagentadminpolicy ,cloudwatchagentserverpolicy.
+3. provide rolename (sajanawsec2role){now the ec2 instance role for systemsmanager, cloudwatch is created}.
+4. goto ec2 instance > actions > security > modify IAM role > choose "sajanec2awsrole" which we created.
