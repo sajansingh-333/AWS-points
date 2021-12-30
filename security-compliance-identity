@@ -1,0 +1,54 @@
+Reference document for AWS Security, Identity and Compliance
+Objective:Explore on the Category and Use-cases on AWS Security, Identity and Compliance.
+
+1.Identity and Access Management 
+Use Case                                                    AWS Service
+Securely manage access to services and resources -          AWS Identity & Access Management (IAM)
+Cloud single-sign-on (SSO) service                    -     AWS Single Sign-On
+Identity management for your apps                     -     Amazon Cognito
+Managed Microsoft Active Directory                     -     AWS Directory
+ServiceSimple, secure service to share AWS resources      -  AWS Resource Access Manager 
+Central governance and management across AWS accounts    -    AWS Organizations
+
+2.Detection
+Use Case                                                     AWS Service 
+Unified security and compliance  center
+AWS Security HubManaged threat detection service
+Amazon Guard 
+DutyAnalyze application  security
+Amazon Inspector
+Record and evaluate configurations of your AWS resources
+AWS Config
+Track user activity  and API usage
+AWS Cloud
+TrailSecurity management for IoT devices
+AWS IoT Device Defender
+
+3.Infrastructure  protection 
+Use Case           AWS Service
+
+DDoS protection
+AWS Shield
+
+Filter malicious  web traffic
+AWS Web Application Firewall (WAF)
+
+Central management of firewall rules
+AWS Firewall Manager
+
+4.Data  protection 
+Use Case                                                    AWS Service
+Discover and protect your sensitive data at scale           Amazon MacieKey 
+storage and management                                      AWS Key Management Service (KMS)
+Hardware based key storage for regulatory compliance        AWS CloudHSM
+Provision, manage, and deploy public  and private SSL/TLS certificates   AWS Certificate Manager
+Rotate, manage, and retrieve secrets                         AWS Secrets Manager
+
+5.Incident Response         Use Case     AWS Service
+Investigate potential security issues               Amazon Detective
+Fast, automated, cost-effective disaster recovery   CloudEndure Disaster Recovery
+
+6.Compliance   Use Case       AWS Service
+No cost, self-service portal for on-demand access to AWS’ compliance reports          AWS Artifact
+
+Summary: With the Security, Identity, and Compliance on AWS you can secure your workloads and applications  in the cloud.
