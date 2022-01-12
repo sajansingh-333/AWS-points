@@ -1,0 +1,61 @@
+Optimal resource utilization
+Whenever you opt for a resource from a CSP(clou service provider), it is highly required that you choose the right-sized resource.
+Service providers deliver resources in various size combinations. Plan what you actually need and  selecting the right sized resource is highly efficient for cost optimization.
+
+Scalability and Elasticity are the features offered by CSPs through which you can easily alter the size of your resources.
+It is a good practice to downsize under-utilized instances and that helps in optimizing the cost to an greater extent.
+
+CSPs charge us only for the resources that are being used or running.
+So always turn off the instances/ resources that are unused. Release unused volume, snapshots, IP addresses and instances when it is no more required thus reducing the storage space that is being used.
+Incorporating all these practices will reduce the cost that is being spent by the organization.
+
+Select the right instance type based on the requirement.
+If you are planning to use a resource for a longer term, then plan to buy reserved instances than on-demand ones.
+CSPs provide discounts on the instance price when it is being used for a longer term.
+
+Choose instance type which has better discounted price and best suits your need.
+Example: AWS Spot instance and Pre-emptible instance from GCP.
+
+Efficient storage management
+
+CSPs deliver various storage class options based on the accessibility rate. Switching the storage type on the fly is allowed, which saves cost.
+Storing unused data occupies storage space which can be avoided too. So always ensure that you delete unused data.
+Even this movement between different storage class is automated by CSPs through lifecycle mechanism.
+Configuring them can optimize your cloud spend.
+
+By compressing the data you can reduce the storage requirements which subsequently reduces the storage cost
+
+At times the object gets interrupted while uploading and results in incomplete upload.
+This incomplete uploads occupy up to terabytes of your storage space which is of complete waste.
+Make sure you clean up incomplete uploads.
+
+Utilize elastic cloud capabilities
+The ability to scale the size of your compute and storage resources based on the requirement is one of the best way to optimize the cloud cost.
+For every CSP, Scalability and elasticity are critical aspects. CSPs provide various such services for us to utilize and maximize the performance of application.
+
+Use auto scaling feature and describe when to add/ remove resources. You can remove scale down your servers during off-hours to reduce cost.
+Use load balancers to distribute the request to a fleet of servers
+
+Use caching
+Caching improves the performance of the application by providing quicker access to the data. By using memory-based caching instead of a dedicated storage instances, the application performance is improved. Also, using this methodology will reduce the expense of higher-tier cloud storage and thus reducing the cloud spend cost.
+
+It best suits the applications which have performance-sensitive workloads that needs replication for elasticity.
+
+Example: AWS Elasticache
+
+Use Single cloud vendor
+Many organization uses multi cloud approach to avoid vendor lock in. Though that provides high availability and uptime of the application, the cost is not optimized. As in, using one single vendor for all your resources lowers the cloud spend, as the vendor tend to provide discount while using more from them. Training people on various CSP’s services also becomes a tedious task. The network transfer rates between various cloud platform can be avoided too while using single cloud approach.
+
+Manage Data Transfer Costs
+One of the factors on which CSP calculate billing is data transfer cost. How much of data that is being transferred from one region to another, in and out of the service is noted and charged based on that.
+
+To control the cost that incurs because of data transfer you can either keep your compute and storage resources in the same region or you can make use of cross-region replication feature and CDN service.
+
+Example: Amazon Cloudfront, Cloudfare, Cloud CDN
+
+Use services than servers wherever appropriate   
+Cloud Service Providers have come up with so many managed services that reduce the maintenance overhead on an organization and thus increase Developer’s productivity.
+
+Incorporating such services instead of procuring and managing your own servers will be more cost effective solution.
+
+Example: AWS Lambda, Amazon Route53, Cloud DNS, Amazon RDS
